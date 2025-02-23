@@ -77,7 +77,7 @@ The dataset contains **10,000 rows** and **15 columns**, including:
 ### Data Saved Successfully
 ![Data Saved Successfully](Screenshots/data_saved_successfully.png)
 
-### Correlation Analysis
+## Correlation Analysis
 #### Study Hours vs. Social Media Usage
 - **Correlation**: 0.01038
 - **Interpretation**: Very weak positive correlation. Study hours and social media usage are almost unrelated.
