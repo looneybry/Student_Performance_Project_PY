@@ -46,6 +46,11 @@ The dataset contains **10,000 rows** and **15 columns**, including:
 - **Weak Correlations**: Most factors (e.g., study hours, sleep hours, attendance) showed very weak correlations with exam scores.
 - **Learning Style Impact**: Learning style had a minimal impact on exam scores, with auditory learners scoring slightly higher on average.
 
+### Interpreting Correlation Values
+- **0.7 to 1.0 (-0.7 to -1.0)**: Strong correlation.
+- **0.3 to 0.7 (-0.3 to -0.7)**: Moderate correlation.
+- **0.0 to 0.3 (-0.0 to -0.3)**: Weak or no correlation.
+
 ## Script Output
 ### Dataset Info
 ![Dataset Info](Screenshots/dataset_info.png)
