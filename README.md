@@ -11,6 +11,10 @@ This project analyzes a dataset of student performance to understand the relatio
 - **Python**: For data cleaning and analysis.
 - **Pandas**: For data manipulation.
 
+## Data Source
+The dataset used in this project is available on Kaggle:
+- [Student Performance and Learning Style Dataset](https://www.kaggle.com/datasets/adilshamim8/student-performance-and-learning-style)
+
 ## Dataset
 The dataset contains **10,000 rows** and **15 columns**, including:
 - **Student_ID**: Unique identifier for each student.
