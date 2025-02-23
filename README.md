@@ -77,6 +77,30 @@ The dataset contains **10,000 rows** and **15 columns**, including:
 ### Data Saved Successfully
 ![Data Saved Successfully](Screenshots/data_saved_successfully.png)
 
+### Correlation Analysis
+#### Study Hours vs. Social Media Usage
+- **Correlation**: 0.01038
+- **Interpretation**: Very weak positive correlation. Study hours and social media usage are almost unrelated.
+
+#### Sleep Hours vs. Exam Score
+- **Correlation**: -0.016284
+- **Interpretation**: Very weak negative correlation. Sleep hours and exam scores are almost unrelated.
+
+#### Attendance Rate vs. Exam Score
+- **Correlation**: 0.003717
+- **Interpretation**: Very weak positive correlation. Attendance rate and exam scores are almost unrelated.
+
+#### Study Hours vs. Exam Score
+- **Correlation**: 0.004084
+- **Interpretation**: Very weak positive correlation. Study hours and exam scores are almost unrelated.
+
+#### Exam Score by Learning Style
+- **Auditory**: 70.49
+- **Kinesthetic**: 70.35
+- **Reading/Writing**: 69.81
+- **Visual**: 70.11
+- **Interpretation**: The average exam scores for different learning styles are **basically the same**, indicating that learning style has **minimal impact** on exam performance.
+
 ## How to Use
 1. Clone this repository:
    ```bash
