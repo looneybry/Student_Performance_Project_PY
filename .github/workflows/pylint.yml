@@ -17,8 +17,4 @@ jobs:
           pip install pylint
       - name: Run Pylint
         run: |
-<<<<<<< HEAD
           pylint student_performance_code.py
-=======
-          pylint student_performance_code.py
->>>>>>> b878c51236ca3dfd22771c50c6efd3285669afd0
