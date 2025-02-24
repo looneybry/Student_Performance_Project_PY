@@ -81,18 +81,26 @@ The dataset contains **10,000 rows** and **15 columns**, including:
 #### Study Hours vs. Social Media Usage
 - **Correlation**: 0.01038
 - **Interpretation**: Very weak positive correlation. Study hours and social media usage are almost unrelated.
+- **Visualization**:  
+  ![Study Hours vs. Social Media Usage](visualizations/social_media_vs_exam_score.png)
 
 #### Sleep Hours vs. Exam Score
 - **Correlation**: -0.016284
 - **Interpretation**: Very weak negative correlation. Sleep hours and exam scores are almost unrelated.
+- **Visualization**:  
+  ![Sleep Hours vs. Exam Score](visualizations/sleep_hours_vs_exam_score.png)
 
 #### Attendance Rate vs. Exam Score
 - **Correlation**: 0.003717
 - **Interpretation**: Very weak positive correlation. Attendance rate and exam scores are almost unrelated.
+- **Visualization**:  
+  ![Attendance Rate vs. Exam Score](visualizations/attendance_vs_exam_score.png)
 
 #### Study Hours vs. Exam Score
 - **Correlation**: 0.004084
 - **Interpretation**: Very weak positive correlation. Study hours and exam scores are almost unrelated.
+- **Visualization**:  
+  ![Study Hours vs. Exam Score](visualizations/study_hours_vs_exam_score.png)
 
 #### Exam Score by Learning Style
 - **Auditory**: 70.49
@@ -100,6 +108,9 @@ The dataset contains **10,000 rows** and **15 columns**, including:
 - **Reading/Writing**: 69.81
 - **Visual**: 70.11
 - **Interpretation**: The average exam scores for different learning styles are **basically the same**, indicating that learning style has **minimal impact** on exam performance.
+- **Visualization**:  
+  ![Exam Score by Learning Style](visualizations/avg_exam_score_by_learning_style.png)
+
 
 ## How to Use
 1. Clone this repository:
