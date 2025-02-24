@@ -1,8 +1,18 @@
+"""
+Student Performance Analysis Script
+
+This script analyzes a dataset of student performance to understand the relationships between
+study habits, attendance, sleep, and exam scores.
+"""
+
 import pandas as pd
 
 # Load the dataset
-file_path = r"C:\Users\Loone\OneDrive\Desktop\Student_Performance_Project\student_performance_large_dataset.csv"
-df = pd.read_csv(file_path)
+FILE_PATH = (
+    r"C:\Users\Loone\OneDrive\Desktop\Student_Performance_Project"
+    r"\student_performance_large_dataset.csv"
+)
+df = pd.read_csv(FILE_PATH)
 
 # Display basic information
 print("Dataset Info:")
@@ -16,7 +26,8 @@ df.dropna(inplace=True)
 
 # Convert percentage columns to numeric (if they are not already)
 if df['Assignment_Completion_Rate (%)'].dtype == object:  # Check if the column is a string
-    df['Assignment_Completion_Rate (%)'] = df['Assignment_Completion_Rate (%)'].str.replace('%', '').astype(float)
+    df['Assignment_Completion_Rate (%)'] = (
+        df['Assignment_Completion_Rate (%)'].str.replace('%', '').astype(float)
 else:
     df['Assignment_Completion_Rate (%)'] = df['Assignment_Completion_Rate (%)'].astype(float)
 
@@ -64,7 +75,10 @@ print("\nCorrelation between Study Hours and Exam Score:")
 print(study_vs_exam_score)
 
 # Export Cleaned Data for Tableau
-cleaned_file_path = r"C:\Users\Loone\OneDrive\Desktop\Student_Performance_Project\cleaned_student_performance.csv"
-print(f"\nAttempting to save cleaned data to: {cleaned_file_path}")
-df.to_csv(cleaned_file_path, index=False)
+CLEANED_FILE_PATH = (
+    r"C:\Users\Loone\OneDrive\Desktop\Student_Performance_Project"
+    r"\cleaned_student_performance.csv"
+)
+print(f"\nAttempting to save cleaned data to: {CLEANED_FILE_PATH}")
+df.to_csv(CLEANED_FILE_PATH, index=False)
 print("Data saved successfully!")
